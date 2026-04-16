@@ -260,3 +260,9 @@ ul { list-style: none; }
   .access-map-placeholder { display: none; }
   .program-item { grid-template-columns: 72px 1fr; }
 }
+
+h4 {
+  font-size: 28px;            /* 文字を大きく */
+  display: flex;
+  align-items: center;
+  }
