@@ -26,7 +26,7 @@
 /* =============== リセット =============== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 body {
-  font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', sans-serif;
+  font-family:"Noto Serif JP";;
   color: var(--text-main);
   background: var(--bg-white);
   line-height: 1.7;
@@ -89,7 +89,7 @@ ul { list-style: none; }
 /* =============== ヒーロー =============== */
 .hero {
   background: var(--theme-color);
-  color: var(--bg-white);
+  color: yellowgreen;
   text-align: center;
   padding: 80px 24px;
 }
@@ -106,6 +106,7 @@ ul { list-style: none; }
   font-weight: 900;
   line-height: 1.2;
   margin-bottom: 20px;
+  font-family: "Noto Serif JP";
 }
 .hero-catch {
   font-size: 1.1rem;
